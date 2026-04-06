@@ -1,26 +1,99 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>SkillForge — Elementor, Crocoblock & AI Tutorials</title>
-    <meta name="description" content="Master Elementor, Crocoblock and AI Automation with expert-led tutorials. Build stunning WordPress sites and automate your workflows." />
-    <meta name="author" content="Lovable" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillForge - Master Elementor, Crocoblock & AI Automation</title>
+  <meta name="description" content="Step-by-step tutorials to help you build stunning websites, dynamic content, and smart automations." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
 
-    <!-- TODO: Update og:title to match your application name -->
-    <meta property="og:title" content="Lovable App" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">⚡ SkillForge</div>
+      <div class="nav-links">
+        <a href="#skills">Skills</a>
+        <a href="#tutorials">Tutorials</a>
+        <a href="#about">About</a>
+      </div>
+      <button class="btn btn-primary btn-sm">Start Learning</button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+    </div>
+  </nav>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="hero-badge">🚀 Learn. Build. Automate.</span>
+      <h1>Master <span class="text-accent">Elementor</span>, <span class="text-accent">Crocoblock</span> & <span class="text-accent">AI Automation</span></h1>
+      <p class="hero-subtitle">Step-by-step tutorials to help you build stunning websites, dynamic content, and smart automations — no coding required.</p>
+      <div class="hero-buttons">
+        <button class="btn btn-primary btn-lg">Browse Tutorials →</button>
+        <button class="btn btn-outline btn-lg">▶ Watch Intro</button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>50+</strong><span>Tutorials</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>5K+</strong><span>Students</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>4.9★</strong><span>Rating</span></div>
+      </div>
+    </div>
+  </section>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What You'll Learn</span>
+        <h2>Three Powerful Skills, One Place</h2>
+        <p>From beautiful page design to smart automation — everything you need to build modern web experiences.</p>
+      </div>
+      <div class="skills-grid" id="skills-grid"></div>
+    </div>
+  </section>
+
+  <!-- Tutorials -->
+  <section class="tutorials" id="tutorials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Latest Tutorials</span>
+        <h2>Start Learning Today</h2>
+        <p>Practical, project-based tutorials that get you building real things from day one.</p>
+      </div>
+      <div class="tutorials-grid" id="tutorials-grid"></div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <h2>Ready to Level Up Your Skills?</h2>
+        <p>Join thousands of creators learning to build better websites and smarter automations.</p>
+        <button class="btn btn-secondary btn-lg">Get Started Free →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="logo">⚡ SkillForge</div>
+      <p>© 2026 SkillForge. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Twitter</a>
+        <a href="#">YouTube</a>
+        <a href="#">Discord</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
