@@ -46,7 +46,7 @@ img { max-width: 100%; display: block; }
 
 /* ===== Hero ===== */
 .hero { position: relative; min-height: 90vh; display: flex; align-items: center; overflow: hidden; }
-.hero-bg { position: absolute; inset: 0; background: url("/src/assets/hero-bg.jpg") center/cover no-repeat; }
+.hero-bg { position: absolute; inset: 0; background: url("hero-bg.jpg") center/cover no-repeat; }
 .hero-overlay { position: absolute; inset: 0; background: rgba(30,41,59,0.8); }
 .hero::after { content: ""; position: absolute; inset: 0; background: var(--hero-gradient); opacity: 0.15; }
 .hero-content { position: relative; z-index: 10; max-width: 640px; padding: 5rem 0; }
