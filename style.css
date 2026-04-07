@@ -23,7 +23,7 @@ img { max-width: 100%; display: block; }
   --card-hover-glow: 0 16px 48px -12px rgba(79,70,229,0.25);
 }
 
-.container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+.container { margin: 0;        /* remove centering */ }
 
 /* ===== Buttons ===== */
 .btn { display: inline-flex; align-items: center; gap: 0.5rem; border: none; border-radius: var(--radius); font-weight: 600; cursor: pointer; transition: all 0.2s; font-family: inherit; }
