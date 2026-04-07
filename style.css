@@ -45,7 +45,7 @@ img { max-width: 100%; display: block; }
 .hamburger { display: none; background: none; border: none; font-size: 1.5rem; cursor: pointer; }
 
 /* ===== Hero ===== */
-.hero { position: relative; min-height: 90vh; display: flex; align-items: center; overflow: hidden; }
+.hero { position: relative; min-height: 90vh; display: flex; align-items: start; overflow: hidden; }
 .hero-bg { position: absolute; inset: 0; background: url("hero-bg.jpg") center/cover no-repeat; }
 .hero-overlay { position: absolute; inset: 0; background: rgba(30,41,59,0.8); }
 .hero::after { content: ""; position: absolute; inset: 0; background: var(--hero-gradient); opacity: 0.15; }
